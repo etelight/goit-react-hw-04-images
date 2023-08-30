@@ -49,9 +49,9 @@ export const App = () => {
     loadImages();
   }, [query, page]);
 
-  const handleLoadMore = () => {
+  function handleLoadMore() {
     setPage(page + 1);
-  };
+  }
 
   return (
     <Wrapper>
