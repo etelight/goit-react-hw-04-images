@@ -47,6 +47,7 @@ export const App = () => {
     if (query === '') return;
 
     loadImages();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [query, page]);
 
   function handleLoadMore() {
